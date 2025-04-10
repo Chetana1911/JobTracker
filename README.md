@@ -31,7 +31,7 @@ For Client -  In a new terminal or after installing server dependencies:
    ```
 
   
-3. Set up environment variables: To run the application locally or deploy it elsewhere, you need to set up the following environment variables in a `.env` file at the root of the project. Here's how to fill in each variable:
+4. Set up environment variables: To run the application locally or deploy it elsewhere, you need to set up the following environment variables in a `.env` file at the root of the project. Here's how to fill in each variable:
 
     - `NODE_ENV`: Set the environment to either `development` or `production`.
     - `PORT`: Define the port number on which the server will run. Here default is `5100`.
@@ -54,7 +54,7 @@ For Client -  In a new terminal or after installing server dependencies:
     CLOUD_API_KEY=your_cloud_api_key
     CLOUD_API_SECRET=your_cloud_api_secret
     ```
-4. Run the application:
+5. Run the application:
      1. Run Backend
      ```sh
     npm start

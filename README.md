@@ -17,11 +17,22 @@
 2. Install dependencies
 
    ```sh
-   cd jobify
-   npm run setup-production-app 
+   cd jobify-main
    ```
+3.There are two parts of this project: client and server.
+    1. For Server
+    ```sh
+      cd server
+      npm install
+    ```
+  2. For Client 
+  In a new terminal or after installing server dependencies:
+  ```sh
+    npm install
+  ```
 
-3. Set up environment variables: To run the application locally or deploy it elsewhere, you need to set up the following environment variables in a `.env` file at the root of the project. Here's how to fill in each variable:
+  
+4. Set up environment variables: To run the application locally or deploy it elsewhere, you need to set up the following environment variables in a `.env` file at the root of the project. Here's how to fill in each variable:
 
     - `NODE_ENV`: Set the environment to either `development` or `production`.
     - `PORT`: Define the port number on which the server will run. Here default is `5100`.
@@ -46,8 +57,15 @@
     ```
 
 4. Run the application:
-
-   ```sh
-   node server
-   ```
+     1. Run Backend
+     ```sh
+    npm start
+     ```
+     If you see something like Server is listening on port 5000, you're good!
+  2. Run Frontend
+      Open a new terminal, go to the client folder:
+     ```sh
+     npm run dev
+     ```
+     This will launch the frontend on http://localhost:5173 (default Vite port).
 

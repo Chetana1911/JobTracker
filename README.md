@@ -22,7 +22,8 @@
 
 
 3. There are two parts of this project: client and server.
-     For Server
+
+   For Server
      ```sh
      cd server
      npm install
@@ -34,11 +35,6 @@
      ```sh
       npm install
      ```
-
-
-
-
-
 
   
 5. Set up environment variables: To run the application locally or deploy it elsewhere, you need to set up the following environment variables in a `.env` file at the root of the project. Here's how to fill in each variable:
@@ -64,13 +60,12 @@
     CLOUD_API_KEY=your_cloud_api_key
     CLOUD_API_SECRET=your_cloud_api_secret
     ```
-6. Run the application:
-     1. Run Backend
+6. Run the application:Run Backend
      ```sh
     npm start
      ```
      If you see something like Server is listening on port 5000, you're good!
-  2. Run Frontend
+7. Run Frontend
       Open a new terminal, go to the client folder:
      ```sh
      npm run dev

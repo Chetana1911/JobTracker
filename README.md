@@ -20,16 +20,15 @@
    cd jobify-main
    ```
 3.There are two parts of this project: client and server.
-    1. For Server
+For Server
     ```sh
-      cd server
-      npm install
-    ```
-    2. For Client -  In a new terminal or after installing server dependencies:
-    
+   cd server
+   npm install
+   ```
+For Client -  In a new terminal or after installing server dependencies:
     ```sh
-      npm install
-    ```
+   npm install
+   ```
 
   
 3. Set up environment variables: To run the application locally or deploy it elsewhere, you need to set up the following environment variables in a `.env` file at the root of the project. Here's how to fill in each variable:

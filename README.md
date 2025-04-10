@@ -20,15 +20,13 @@
    cd jobify-main
    ```
 3.There are two parts of this project: client and server.
-    
     1. For Server
-    
   ```sh
       cd server
       npm install
   ```
-    2. For Client - 
-    In a new terminal or after installing server dependencies:
+    2. For Client -  In a new terminal or after installing server dependencies:
+    
     ```sh
       npm install
     ```
